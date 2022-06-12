@@ -13,6 +13,6 @@
 Haven't checked what voltages are coming out of 
  
  ## References
- https://www.dypcn.com/uploads/L02-Output-Interfaces.pdf
- https://www.dypcn.com/uploads/L02-Datasheet1.pdf
+ - https://www.dypcn.com/uploads/L02-Output-Interfaces.pdf
+ - https://www.dypcn.com/uploads/L02-Datasheet1.pdf
  
