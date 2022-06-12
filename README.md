@@ -1,4 +1,4 @@
-﻿# Testing program for Water Level Sensor DYP L023MUW and AO121AU 
+﻿# Displaying of values for Water Level Sensor L023MUW and Distance Sensor AO121AU 
  
  This program decodes the bytes coming out of the sensor and writes them to console.
  
@@ -7,7 +7,8 @@
  
  ## Sensor Pinout
  
- The TX/RX wires can differ between sensor types
+ The TX/RX wires can differ between sensor types.
+
 
  ### L023MUW
  1. Red - VCC (2.8v - 5v) 
