@@ -1,4 +1,4 @@
-﻿# Testing program for Water Level Sensor DYP-L023MUW
+﻿# Testing program for Water Level Sensor DYP L023MUW and AO121AU 
  
  This program decodes the bytes coming out of the sensor and writes them to console.
  
@@ -7,12 +7,21 @@
  
  ## Sensor Pinout
  
- 1. Red - VCC (2.8v - 5v) - 3.3 is fine.
- 2. Black - Ground
- 3. Yellow - Sensor TX (Goes to Reader RX)
- 4. White - Sensor RX (Goes to Reader TX) 
+ The TX/RX wires can differ between sensor types
 
-Haven't checked what voltages are coming out of 
+ ### L023MUW
+ 1. Red - VCC (2.8v - 5v) 
+ 2. Black - Ground
+ 3. Yellow - UART TX (Goes to Reader RX)
+ 4. White - UART RX (Goes to Reader TX)
+
+ ### A0121AU
+ 1. Red - VCC (2.8v - 5v) 
+ 2. Black - Ground
+ 3. Yellow - UART RX (Goes to Reader TX)
+ 4. White - UART TX (Goes to Reader RX)
+
+
  
  ## References
  - https://www.dypcn.com/uploads/L02-Output-Interfaces.pdf
