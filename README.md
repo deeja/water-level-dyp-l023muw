@@ -1,5 +1,7 @@
 ﻿# Testing program for Water Level Sensor DYP-L023MUW
  
+ This program decodes the bytes coming out of the sensor and writes them to console.
+ 
  COM 7 is set in the code. Probably differs based on the USB module you are using.
  Settings: 9600 - 8N1
  
