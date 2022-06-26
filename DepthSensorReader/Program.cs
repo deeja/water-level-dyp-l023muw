@@ -28,6 +28,9 @@ namespace DepthSensorReader
                 {Handshake = Handshake.None};
 
             serialPort.Open();
+            
+            // Write some bytes to start the feedback
+            serialPort.Write("Triggered!");
 
             while (!cancellationToken.IsCancellationRequested)
             {
